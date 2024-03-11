@@ -49,16 +49,16 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             Spacer(modifier = Modifier.height(20.dp))
             Column() {
                 Row() {
-                    Image(painter = painterResource(id = R.drawable.ic_launcher_foreground), contentDescription = null)
-                    Text(text = "number phone")
+                    Image(painter = painterResource(id = R.drawable.baseline_local_phone_24), contentDescription = null)
+                    Text(text = "+38 00 000 000)
                 }
                 Row() {
-                    Image(painter = painterResource(id = R.drawable.ic_launcher_foreground), contentDescription = null)
-                    Text(text = "name")
+                    Image(painter = painterResource(id = R.drawable.baseline_share_24), contentDescription = null)
+                    Text(text = "Alex")
                 }
                 Row() {
-                    Image(painter = painterResource(id = R.drawable.ic_launcher_foreground), contentDescription = null)
-                    Text(text = "mail")
+                    Image(painter = painterResource(id = R.drawable.baseline_email_24), contentDescription = null)
+                    Text(text = "mail@gmail.com")
                 }
             }
         }
